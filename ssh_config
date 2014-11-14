@@ -1,0 +1,9 @@
+SendEnv LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials no
+
+Host github.com
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null
+IdentityFile /github
