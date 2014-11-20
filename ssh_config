@@ -6,4 +6,9 @@ GSSAPIDelegateCredentials no
 Host github.com
 StrictHostKeyChecking no
 UserKnownHostsFile /dev/null
-IdentityFile /github
+IdentityFile /id_rsa
+
+Host bitbucket.org
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null
+IdentityFile /id_rsa
